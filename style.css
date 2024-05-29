@@ -4,7 +4,9 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.container {
+    padding: 50px 175px;
+}
 ul, li {
     display: flex;
     justify-content: space-between;
@@ -40,7 +42,6 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    padding: 50px 175px;
 }
 .left-main,
 .right-main {
@@ -49,8 +50,12 @@ main {
 .main-content {
     padding-bottom: 20px;
 }
-main h1 {
-    font-size: 48px;
+.main-content p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+h1 {
+    font-size: 40px;
     font-weight: bolder;
 }
 button {
@@ -59,4 +64,38 @@ button {
     border: none;
     border-radius: 5px;
     background-color: #3882f6;
+}
+
+
+
+.info {
+    /* padding: 50px 175px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 20px;
+
+    height: auto;
+    width: 150px;
+    padding: 25px;
+    text-align: center;
+}
+.info-box {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
 }
